@@ -4,3 +4,5 @@ ultralytics==8.1.29
 psycopg2-binary==2.9.9
 Pillow
 numpy==1.26.4
+torch==2.5.1
+torchvision==0.20.1
