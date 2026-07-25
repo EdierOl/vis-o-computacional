@@ -1,0 +1,35 @@
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes Virtuais (Virtualenvs)
+venv/
+env/
+.venv/
+.env_dir/
+
+# Variáveis de Ambiente e Segredos (⚠️ CRÍTICO DE SEGURANÇA)
+.env
+.streamlit/secrets.toml
+
+# Pesos do Modelo YOLOv8 (Arquivos grandes, baixados automaticamente)
+*.pt
+yolov8n-seg.pt
+yolov8*.pt
+
+# Diretório de saídas e logs do Ultralytics/YOLO
+runs/
+yolov8_*.avi
+yolov8_*.mp4
+
+# Configurações de IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
